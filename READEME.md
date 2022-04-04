@@ -9,7 +9,7 @@ For Linux/Mac
 ```
 source venv/bin/activate
 ```
-For Windows
+For Windowsg
 ```
 source venv/Scripts/activate
 ```
