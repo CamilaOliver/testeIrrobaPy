@@ -11,7 +11,7 @@ source venv/bin/activate
 ```
 For Windowsg
 ```
-source venv/Scripts/activate
+source venv/bin/activate
 ```
 Install package
 ```

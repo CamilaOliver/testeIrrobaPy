@@ -1,5 +1,5 @@
 # Normal way
-def userEntity(item) -> dict:
+def modelEntity(item) -> dict:
     return {
         "id":str(item["_id"]),
         "nome":item["nome da categoria"],
@@ -7,11 +7,10 @@ def userEntity(item) -> dict:
         "preco":item["preço"],
         "marca":item["marca"],
         "decricao":item["descrição do produto"]
-        
     }
 
-def usersEntity(entity) -> list:
-    return [userEntity(item) for item in entity]
+def modelsEntity(entity) -> list:
+    return [modelEntity(item) for item in entity]
 #Best way
 
 def serializeDict(a) -> dict:
